@@ -8,7 +8,7 @@
 void calc_fatorial(int *valor_ft, int valor_n) {
 	*valor_ft = 1;
 	while (valor_n > 1)
-		*valor_ft *= valor_n--;
+		*valor_ft *= valor_n --;
 }
 
 int main() {
