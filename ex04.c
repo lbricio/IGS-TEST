@@ -20,7 +20,7 @@ int calc_max_bitwise(int v1, int v2) {
 	int op2 = v1 OR v2;
 	int op3 = v1 XOR v2;
 	int op4 = (NOT v1 > NOT v2) ? ~v1 : ~v2;
-	
+
 	return maior_valor(op1, op2, op3, op4);
 }
 
