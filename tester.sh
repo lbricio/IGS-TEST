@@ -1,3 +1,5 @@
+#!/bin/bash
+
 PURPLE='\033[0;35m'
 GREEN='\033[0;32m'
 GRAY='\033[0;30m'
