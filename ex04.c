@@ -26,9 +26,9 @@ int calc_max_bitwise(int v1, int v2) {
 
 int maior_valor(int v1, int v2, int v3, int v4) {
 	int maior = v1;
-	if (v2 > maior) { maior = v2; }
-	if (v3 > maior) { maior = v3; }
-	if (v4 > maior) { maior = v4; }
+	if (v2 > maior) maior = v2;
+	if (v3 > maior) maior = v3;
+	if (v4 > maior) maior = v4;
 	return maior;
 }
 

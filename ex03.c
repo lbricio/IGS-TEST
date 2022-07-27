@@ -27,7 +27,7 @@ int maximo_elementos(int valor_ref, int *array, int tamanho_array) {
 		for (int i = 0; i < tamanho_array; i++)
 			if (array[i] <= array[menor]) menor = i;
 		soma += array[menor];
-		if (soma <= valor_ref) agrupamento++;
+		if (soma <= valor_ref) agrupamento ++;
 		array[menor] = INT_MAX;
 	}
 	return agrupamento;
