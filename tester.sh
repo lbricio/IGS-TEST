@@ -30,6 +30,8 @@ echo -e "${DEFAULT}"
 echo -e "---------------- ex03 ----------------"
 gcc ex03.c
 echo -e "${DEFAULT}"
+echo -e "${DEFAULT}--> 1,2,3 --> 0 (resposta: 0) ${GREEN}" && ./a.out <<< "1,2,3 0" && echo ""
+echo -e "${DEFAULT}--> 1,2,3 --> 1 (resposta: 1) ${GREEN}" && ./a.out <<< "1,2,3 1" && echo ""
 echo -e "${DEFAULT}--> 1,2,3,4,5 --> 5 (resposta: 2) ${GREEN}" && ./a.out <<< "1,2,3,4,5 5" && echo ""
 echo -e "${DEFAULT}--> 1,2,3,4,5 --> 6 (resposta: 3) ${GREEN}" && ./a.out <<< "1,2,3,4,5 6" && echo ""
 echo -e "${DEFAULT}--> 1,2,3,4,5 --> 100 (resposta: 5) ${GREEN}" && ./a.out <<< "1,2,3,4,5 100" && echo ""
