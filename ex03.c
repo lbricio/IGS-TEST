@@ -20,15 +20,15 @@
 #define INT_MAX 2147483647
 
 int maximo_elementos(int valor_ref, int *array, int tamanho_array) {
-	int agrupamento = 0, menor_i = 0;
+	int agrupamento = 0, menor = 0;
 	long int soma = 0;
 
 	while (soma <= valor_ref) {
 		for (int i = 0; i < tamanho_array; i++)
-			if (array[i] <= array[menor_i]) menor_i = i;
-		soma += array[menor_i];
+			if (array[i] <= array[menor]) menor = i;
+		soma += array[menor];
 		if (soma <= valor_ref) agrupamento++;
-		array[menor_i] = INT_MAX;
+		array[menor] = INT_MAX;
 	}
 	return agrupamento;
 }
