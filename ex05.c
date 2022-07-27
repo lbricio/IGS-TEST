@@ -43,9 +43,9 @@ int main() {
 	int idx = 0;
 	do {
 		printf(" %c ", marcacao[idx]);
-	if ((++idx)%5 == 0) {
-		printf("\n");
-	}
+		if ((++idx)%5 == 0) {
+			printf("\n");
+		}
 	} while (idx < MAX_MARCACAO);
 	return 0;
 }
