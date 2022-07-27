@@ -24,12 +24,11 @@
 #define MAX_MARCACAO 15
 
 void avaliar_marcacao(int * sorteio, int * cartela, char * marcacao) {
-
+	
 	for (int i = 0; i < MAX_SORTEIO; i++) {
 		marcacao[i] = 'O';
 		for (int j = 0; j < MAX_MARCACAO; j++)
-			if (sorteio[i] == cartela[j])
-				marcacao[i] = 'X';
+			if (sorteio[i] == cartela[j]) marcacao[i] = 'X';
 	}
 }
 

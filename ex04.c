@@ -16,12 +16,11 @@
 int maior_valor(int v1, int v2, int v3, int v4);
 
 int calc_max_bitwise(int v1, int v2) {
-	int op1, op2, op3, op4;
-	op1 = v1 AND v2;
-	op2 = v1 OR v2;
-	op3 = v1 XOR v2;
-	op4 = (NOT v1 > NOT v2) ? ~v1 : ~v2;
-
+	int op1 = v1 AND v2;
+	int op2 = v1 OR v2;
+	int op3 = v1 XOR v2;
+	int op4 = (NOT v1 > NOT v2) ? ~v1 : ~v2;
+	
 	return maior_valor(op1, op2, op3, op4);
 }
 
