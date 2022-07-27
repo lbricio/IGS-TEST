@@ -23,7 +23,7 @@
 #define MAX_SORTEIO 30
 #define MAX_MARCACAO 15
 
-void avaliar_marcacao(int * sorteio, int * cartela, char * marcacao) {
+void avaliar_marcacao(int *sorteio, int *cartela, char *marcacao) {
 
 	for (int i = 0; i < MAX_SORTEIO; i++) {
 		marcacao[i] = 'O';
