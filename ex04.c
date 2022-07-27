@@ -21,7 +21,7 @@ int maior_valor(int v1, int v2, int v3, int v4) {
 	return maior;
 }
 
-int calcular_max_bitwise(int v1, int v2) {
+int calc_max_bitwise(int v1, int v2) {
 	int op1, op2, op3, op4;
 	op1 = v1 AND v2;
 	op2 = v1 OR v2;
@@ -35,7 +35,7 @@ int main() {
 	int valor_1, valor_2, maior_valor;
 	printf("Informe os valores.\n");
 	scanf("%d %d", &valor_1, &valor_2);
-	maior_valor = calcular_max_bitwise(valor_1, valor_2);
+	maior_valor = calc_max_bitwise(valor_1, valor_2);
 	printf("O maior valor é: %d .\n", maior_valor);
 	return 0;
 }
