@@ -27,8 +27,7 @@ void avaliar_marcacao(int *sorteio, int *cartela, char *marcacao) {
 	for (int i=0; i < MAX_MARCACAO; i++) {
 		marcacao[i] = 'O';
 		for (int j=0; j < MAX_SORTEIO; j++)
-			if (cartela[i] == sorteio[j])
-				marcacao[i] = 'X';
+			if (cartela[i] == sorteio[j]) marcacao[i] = 'X';
 	}
 }
 
