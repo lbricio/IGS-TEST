@@ -17,16 +17,16 @@
 
 int calc_max_bitwise(int v1, int v2) {
 	int max = (v1 AND v2);
-	if ((v1 OR v2)  > max) max = (v1 OR v2);
-	if ((v1 XOR v2) > max) max = (v1 XOR v2);
-	
-	if ((NOT v1) > max) max = (NOT v1);
-	if ((NOT v2) > max) max = (NOT v2);
+	if (max < (v1 OR  v2)) max = (v1 OR v2);
+	if (max < (v1 XOR v2)) max = (v1 XOR v2);
 
-	if ((v1 RIGHT_SHIFT v2) > max) max = (v1 RIGHT_SHIFT v2);
-	if ((v2 RIGHT_SHIFT v1) > max) max = (v2 RIGHT_SHIFT v1);
-	if ((v1 LEFT_SHIFT v2)  > max) max = (v1 LEFT_SHIFT v2);
-	if ((v2 LEFT_SHIFT v1)  > max) max = (v2 LEFT_SHIFT v1);
+	if (max < (NOT v1)) max = (NOT v1);
+	if (max < (NOT v2)) max = (NOT v2);
+
+	if (max < (v1 RIGHT_SHIFT v2)) max = (v1 RIGHT_SHIFT v2);
+	if (max < (v2 RIGHT_SHIFT v1)) max = (v2 RIGHT_SHIFT v1);
+	if (max < (v1 LEFT_SHIFT  v2)) max = (v1 LEFT_SHIFT  v2);
+	if (max < (v2 LEFT_SHIFT  v1)) max = (v2 LEFT_SHIFT  v1);
 	return max;
 }
 
