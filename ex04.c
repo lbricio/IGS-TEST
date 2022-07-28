@@ -19,7 +19,7 @@ int calc_max_bitwise(int v1, int v2) {
 	int max = (v1 AND v2);
 	if ((v1 OR v2)  > max) max = (v1 OR v2);
 	if ((v1 XOR v2) > max) max = (v1 XOR v2);
-
+	
 	if ((NOT v1) > max) max = (NOT v1);
 	if ((NOT v2) > max) max = (NOT v2);
 
