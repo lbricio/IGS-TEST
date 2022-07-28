@@ -6,8 +6,7 @@
 #include <stdio.h>
 
 void calc_fatorial(int *valor_ft, int valor_n) {
-	if (valor_n < 0 || valor_n > 12) return;
-	*valor_ft = 1;
+	*valor_ft = (valor_n < 0 || valor_n > 12)? 0 : 1;
 	while (valor_n > 1)
 		*valor_ft *= valor_n --;
 }
