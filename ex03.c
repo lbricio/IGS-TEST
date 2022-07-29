@@ -5,9 +5,9 @@
 // ‘array’: array de inteiros
 // ‘tamanho_array’: quantidade de elementos no array
 //
-// Esta função deve devolver a maior quantidade de elementos do array que somados resulta em um valor menor ou igual ao
-// parâmetro 'valor_ref'
-//
+// Esta função deve devolver a maior quantidade de elementos do array que somados resulta
+// em um valor menor ou igual ao parâmetro 'valor_ref'
+// -------------------------------------------------------------------------------------------------------
 // Ex.: arr [4,2,3,1,5,6]
 // valor_ref = 7
 // retorno = 3; (representado pelos elementos do array [2,3,1] => 2+3+1 = 6 que é menor que 'valor_ref')

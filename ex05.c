@@ -1,4 +1,4 @@
-//-------------------------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------------------------
 // ex05
 // Desenvolva a função a qual recebe três arrays, os dois primeiros são de inteiros o terceiro é de caracteres, o qual deve ser
 // preenchido com 'X' ou 'O' pela função.
@@ -9,13 +9,13 @@
 // usada para marcar o 'X' dentro do array 'marcacao', caso contrário voce deve marcar 'O'.
 // Obs.1: Arrays: 'cartela' e 'marcacao' tem o mesmo tamanho, já o array de sorteio pode ser de tamanho diferente.
 // Obs.2: Os numeros nos arrays de inteiros não estão ordenados e não ha duplicacao
-//-------------------------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------------------------
 // Ex:
 //
 // Sorteio: 1, 5, 6, 7, 8, 45, 3, 10, 13
 // Cartela: 1, 2, 3, 4, 5, 6, 7, 11
 // Marcacao: X, O, X, O, X, X, X, 0
-//-------------------------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------------------------
 
 #include <stdio.h>
 #include <string.h>
