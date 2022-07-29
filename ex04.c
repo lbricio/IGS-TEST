@@ -26,6 +26,7 @@ int calc_max_bitwise(int v1, int v2)
 
 	if (max < (v1 RIGHT_SHIFT v2)) max = (v1 RIGHT_SHIFT v2);
 	if (max < (v2 RIGHT_SHIFT v1)) max = (v2 RIGHT_SHIFT v1);
+
 	if (max < (v1 LEFT_SHIFT v2)) max = (v1 LEFT_SHIFT v2);
 	if (max < (v2 LEFT_SHIFT v1)) max = (v2 LEFT_SHIFT v1);
 	return max;
