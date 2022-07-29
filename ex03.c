@@ -28,12 +28,10 @@ int maximo_elementos(int valor_ref, int *array, int tamanho_array)
 	while (soma_elementos <= valor_ref)
 	{
 		for (int i=0; i < tamanho_array; i++)
-			if (array[i] <= array[menor_elemento])
-				menor_elemento = i;
+			if (array[i] <= array[menor_elemento]) menor_elemento = i;
 
 		soma_elementos += array[menor_elemento];
-		if (soma_elementos <= valor_ref) 
-			quantidade_elementos ++;
+		if (soma_elementos <= valor_ref) quantidade_elementos ++;
 		array[menor_elemento] = INT_MAX;
 	}
 	return quantidade_elementos;
