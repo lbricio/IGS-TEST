@@ -11,7 +11,6 @@
 // Obs.2: Os numeros nos arrays de inteiros não estão ordenados e não ha duplicacao
 // -------------------------------------------------------------------------------------------------------
 // Ex:
-//
 // Sorteio: 1, 5, 6, 7, 8, 45, 3, 10, 13
 // Cartela: 1, 2, 3, 4, 5, 6, 7, 11
 // Marcacao: X, O, X, O, X, X, X, 0
