@@ -64,4 +64,5 @@ echo -e " O  X  O  X  O"
 echo -e " X  X  X  X  X"
 echo -e "${DEFAULT_BASH}"
 echo -e "--------------------------------------"
+
 rm ./a.out
