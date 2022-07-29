@@ -15,7 +15,8 @@
 #define RIGHT_SHIFT >>
 #define LEFT_SHIFT <<
 
-int calc_max_bitwise(int v1, int v2) {
+int calc_max_bitwise(int v1, int v2)
+{
 	int max = (v1 AND v2);
 	if (max < (v1 OR  v2)) max = (v1 OR v2);
 	if (max < (v1 XOR v2)) max = (v1 XOR v2);

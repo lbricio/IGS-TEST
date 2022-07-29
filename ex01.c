@@ -5,7 +5,8 @@
 
 #include <stdio.h>
 
-int maior_valor(int v1, int v2, int v3, int v4) {
+int maior_valor(int v1, int v2, int v3, int v4)
+{
 	int maior = v1;
 	if (maior < v2) maior = v2;
 	if (maior < v3) maior = v3;
