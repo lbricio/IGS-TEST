@@ -18,7 +18,8 @@
 #include <stdlib.h>
 #define INT_MAX 2147483647
 
-// soma os elementos em ordem crescente para retornar o maior grupo possível
+// recebe um array e soma seus elementos em ordem crescente até encontrar a maior
+// quantidade possível de elementos que somados não ultrapassam o valor de referência.
 int maximo_elementos(int valor_ref, int *array, int tamanho_array)
 {
 	long int soma_elementos = 0;
