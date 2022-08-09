@@ -16,9 +16,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
 #define INT_MAX 2147483647
 
+// soma os elementos em ordem crescente para retornar o maior grupo possível
 int maximo_elementos(int valor_ref, int *array, int tamanho_array)
 {
 	long int soma_elementos = 0;
