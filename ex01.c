@@ -1,6 +1,6 @@
 // -------------------------------------------------------------------------------------------------------
 // ex01
-// Desenvolver a função: ‘maior_valor’; que recebe quatro valores do tipo inteiro e retorna o maior valor.
+// Desenvolver a função: ‘maior_valor’ que recebe quatro valores do tipo inteiro e retorna o maior valor.
 // -------------------------------------------------------------------------------------------------------
 
 #include <stdio.h>
